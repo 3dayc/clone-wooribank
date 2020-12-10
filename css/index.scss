@@ -1,0 +1,201 @@
+header {
+	.top {
+		margin: 0 auto;
+		width: 1200px;
+		// height: 100px;
+		h1 {
+			float: left;
+			padding: 33px 0 0;
+			a:nth-child(1) {
+				margin-right: 28px;
+			}
+		}
+		> div {
+			float: right;
+		}
+		.control {
+			float: left;
+			position: relative;
+			padding-top: 31px;
+			padding-right: 24px;
+			&:after {
+				content: "";
+				position: absolute;
+				right: 0;
+				width: 1px;
+				height: 30px;
+				background-color: #e3e3e3;
+				top: 35px;
+			}
+			h2 {
+				float: left;
+				font-size: 16px;
+				color: #333;
+				font-weight: normal;
+				line-height: 36px;
+			}
+			ul {
+				float: left;
+				padding-left: 9px;
+				li {
+					float: left;
+					padding-left: 4px;
+					button {
+						font-size: 15px;
+						font-weight: bold;
+						color: #3190ce;
+						background-color: #fff;
+						border: 1px solid #dfdfdf;
+						height: 36px;
+						border-radius: 36px;
+						min-width: 36px;
+						padding: 0 16px;
+						box-sizing: border-box;
+						&[class] {
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+		.sns {
+			float: left;
+			padding-top: 27px;
+			padding-left: 7px;
+			li {
+				float: left;
+				padding-left: 12px;
+				img {
+					width: 46px;
+				}
+			}
+		}
+	}
+	.bottom {
+		height: 60px;
+		border-top: 1px solid #ededed;
+		border-bottom: 1px solid #ededed;
+		margin-top: 20px;
+		> div {
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.lnb {
+			li {
+				float: left;
+				position: relative;
+				&:after {
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 25px;
+					width: 1px;
+					height: 10px;
+					background-color: #e3e3e3;
+				}
+				&:last-child {
+					&:after {
+						width: 0;
+					}
+				}
+				a {
+					display: block;
+					font-size: 21px;
+					font-weight: bold;
+					line-height: 60px;
+					padding: 0px 40px;
+					color: #333333;
+				}
+			}
+		}
+		.login {
+			float: right;
+			li {
+				float: left;
+				&:nth-child(1) {
+					position: relative;
+					&:after {
+						content: "";
+						position: absolute;
+						right: 0;
+						top: 25px;
+						width: 1px;
+						height: 10px;
+						background-color: #e3e3e3;
+					}
+					a {
+						padding-right: 13px;
+						font-size: 16px;
+					}
+				}
+				&:nth-child(2) {
+					a {
+						padding-left: 11px;
+						font-size: 16px;
+					}
+				}
+				a {
+					display: block;
+					color: #929292;
+					line-height: 60px;
+				}
+				button {
+					color: #62a1d0;
+					line-height: 60px;
+					background-color: transparent;
+					margin-left: 30px;
+				}
+			}
+		}
+	}
+}
+
+/* 콘텐츠 공통디자인 */
+.block {
+	> div {
+		width: 1200px;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+	.tit {
+		text-align: center;
+		h2 {
+			font-size: 38px;
+			line-height: 1;
+			color: #333;
+			margin-bottom: 28px;
+		}
+		p {
+			font-size: 21px;
+			line-height: 1;
+			color: #666;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+/* 금융서비스 */
+.service {
+	.banner {
+		> div {
+			width: 580px;
+		}
+		.left {
+			float: left;
+			background: url(../images/bg_ad1.jpg) no-repeat left top;
+			div {
+				float: right;
+			}
+		}
+		.right {
+			float: right;
+			background: url(../images/bg_ad2.jpg) no-repeat right top;
+		}
+		div {
+			div {
+				width: 290px;
+				height: 280px;
+			}
+		}
+	}
+}

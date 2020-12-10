@@ -1,0 +1,221 @@
+@charset "UTF-8";
+header .top {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header .top h1 {
+  float: left;
+  padding: 33px 0 0;
+}
+
+header .top h1 a:nth-child(1) {
+  margin-right: 28px;
+}
+
+header .top > div {
+  float: right;
+}
+
+header .top .control {
+  float: left;
+  position: relative;
+  padding-top: 31px;
+  padding-right: 24px;
+}
+
+header .top .control:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 30px;
+  background-color: #e3e3e3;
+  top: 35px;
+}
+
+header .top .control h2 {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+header .top .control ul {
+  float: left;
+  padding-left: 9px;
+}
+
+header .top .control ul li {
+  float: left;
+  padding-left: 4px;
+}
+
+header .top .control ul li button {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3190ce;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  height: 36px;
+  border-radius: 36px;
+  min-width: 36px;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .top .control ul li button[class] {
+  padding: 0;
+}
+
+header .top .sns {
+  float: left;
+  padding-top: 27px;
+  padding-left: 7px;
+}
+
+header .top .sns li {
+  float: left;
+  padding-left: 12px;
+}
+
+header .top .sns li img {
+  width: 46px;
+}
+
+header .bottom {
+  height: 60px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  margin-top: 20px;
+}
+
+header .bottom > div {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .bottom .lnb li {
+  float: left;
+  position: relative;
+}
+
+header .bottom .lnb li:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 1px;
+  height: 10px;
+  background-color: #e3e3e3;
+}
+
+header .bottom .lnb li:last-child:after {
+  width: 0;
+}
+
+header .bottom .lnb li a {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 60px;
+  padding: 0px 40px;
+  color: #333333;
+}
+
+header .bottom .login {
+  float: right;
+}
+
+header .bottom .login li {
+  float: left;
+}
+
+header .bottom .login li:nth-child(1) {
+  position: relative;
+}
+
+header .bottom .login li:nth-child(1):after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 1px;
+  height: 10px;
+  background-color: #e3e3e3;
+}
+
+header .bottom .login li:nth-child(1) a {
+  padding-right: 13px;
+  font-size: 16px;
+}
+
+header .bottom .login li:nth-child(2) a {
+  padding-left: 11px;
+  font-size: 16px;
+}
+
+header .bottom .login li a {
+  display: block;
+  color: #929292;
+  line-height: 60px;
+}
+
+header .bottom .login li button {
+  color: #62a1d0;
+  line-height: 60px;
+  background-color: transparent;
+  margin-left: 30px;
+}
+
+/* 콘텐츠 공통디자인 */
+.block > div {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.block .tit {
+  text-align: center;
+}
+
+.block .tit h2 {
+  font-size: 38px;
+  line-height: 1;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.block .tit p {
+  font-size: 21px;
+  line-height: 1;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* 금융서비스 */
+.service .banner > div {
+  width: 580px;
+}
+
+.service .banner .left {
+  float: left;
+  background: url(../images/bg_ad1.jpg) no-repeat left top;
+}
+
+.service .banner .left div {
+  float: right;
+}
+
+.service .banner .right {
+  float: right;
+  background: url(../images/bg_ad2.jpg) no-repeat right top;
+}
+
+.service .banner div div {
+  width: 290px;
+  height: 280px;
+}
+/*# sourceMappingURL=index.css.map */
